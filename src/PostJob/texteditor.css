@@ -1,0 +1,15 @@
+.text-editor {
+    width: 100%;
+    min-height: 150px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px; /* Adjust as needed */
+    resize: vertical; /* Allows vertical resizing */
+  }
+  
+  .text-editor:focus {
+    border-color: #007bff; /* Change to your primary color */
+    outline: none;
+  }
+  
